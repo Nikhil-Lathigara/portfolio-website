@@ -2,12 +2,12 @@ function Home() {
   return (
       <section className="pt-10 space-y-8 text-center">
         
-        <div className="container flex flex-col items-center gap-10 pb-28 pt-15 sm:gap-14 lg:flex-row">
-          <div className="relative flex-1">
+        <div className="container flex flex-col items-center gap-10 pb-28 pt-15  sm:gap-14 lg:flex-row">
+          <div className="relative flex-1 text-center lg:text-left">
             <img
               src="/image/profile.png"
               alt="user-avatar-image"
-              className="rounded-full object-cover w-4/5 "
+              className="rounded-full object-cover w-4/5 mx-auto lg:mx-0"
               data-aos="zoom-out"
             />
           </div>
