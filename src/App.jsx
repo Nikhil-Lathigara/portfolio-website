@@ -14,9 +14,9 @@ function App() {
     AOS.init({ duration: 1000 });
   }, []);
   return (
-    <div className="min-h-screen bg-gradient-to-r from-gray-900 via-stone-700 to-gray-900 text-gray-100">
+    <div className="min-h-screen bg-gradient-to-r from-gray-950 via-violet-950 to-gray-950 text-indigo-950">
       {/* Main Content */}
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 pb-12">
+      <main className="max-w-6xl mx-auto px-4 sm:px-6">
         {/* About Section */}
         <Home />
 <Skills/>

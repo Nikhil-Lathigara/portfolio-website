@@ -21,12 +21,12 @@ function Education() {
   return (
     <div>
       <section className="mt-16">
-        <h2 className="text-3xl font-bold mb-12 text-center"data-aos="fade-up">Education</h2>
+        <h2 className="text-3xl text-violet-600 font-bold mb-12 text-center"data-aos="fade-up">Education</h2>
         <div className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 gap-10 max-w-5xl mx-auto justify-items-center">
           {educations.map((education,index)=>(
             <div key={index} className="card" data-aos="slide-up" style={{ width: '300px', height: '150px' }} >
             <div className="px-6 py-4">
-              <div className="text-xl font-semibold text-gray">
+              <div className="text-xl text-slate-100 font-semibold text-gray">
                 {education.degree}
               </div>
               <p className="pt-2 text-gray-200 text-sm">

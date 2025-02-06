@@ -45,7 +45,7 @@ function Project() {
   return (
     <div>
       <section className="mt-10">
-        <h2 className="text-3xl font-bold mb-12 text-center" data-aos="fade-up">My Projects</h2>
+        <h2 className="text-3xl text-violet-600 font-bold mb-12 text-center" data-aos="fade-up">My Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto justify-items-center">
           {projects.map((project, index) => (
             <div key={index} className="card" data-aos={project.animation}>
@@ -58,16 +58,16 @@ function Project() {
               </a>
 
               <div className="px-6 py-4">
-                <div className="font-bold text-xl mb-2">
+                <div className="font-bold text-xl text-slate-100 mb-2">
                   {project.title}
                   <a
                     href={project.link}
-                    className="inline-block bg-gray-200 rounded-full px-3 py-1 text-xs font-semibold text-gray-700 m-2 hover:bg-gray-700 hover:text-white"
+                    className="inline-block bg-gray-200 rounded-full px-3 py-1 text-xs font-semibold text-gray-700 m-2 hover:bg-gray-500 hover:text-white"
                   >
                     Github Link
                   </a>
                 </div>
-                <p className="text-gray text-base">{project.description}</p>
+                <p className="text-slate-300 text-base">{project.description}</p>
               </div>
               <div className="px-6 pt-4 pb-2">
                 {project.tech.map((tech, i) => (

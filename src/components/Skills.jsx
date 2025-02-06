@@ -12,7 +12,7 @@ const skills = [
 export default function Example() {
   return (
     <section className="max-w-xl  lg:max-w-7xl lg:px-4 text-center">
-      <h2 className="text-3xl font-bold m-8 text-center"data-aos="fade-up">Skills</h2>
+      <h2 className="text-3xl font-bold m-8 text-center text-violet-600"data-aos="fade-up">Skills</h2>
 
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 max-w-xl mx-auto justify-items-center">
         {skills.map((skill, id) => (
@@ -22,7 +22,7 @@ export default function Example() {
               src={skill.imageSrc}
               className="w-12 sm:w-14 md:w-16 lg:w-20 aspect-square object-contain"
             />
-            <h3 className="mt-2 text-lg text-gray-200">{skill.name}</h3>
+            <h3 className="mt-2 text-lg text-gray-300">{skill.name}</h3>
           </div>
         ))}
       </div>
