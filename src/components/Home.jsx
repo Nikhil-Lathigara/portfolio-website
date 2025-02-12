@@ -30,7 +30,7 @@ function Home() {
             I enjoy building dynamic, responsive, and user-centric applications, using modern web technologies to solve real-world challenges.
             </p>
             <a
-              href="https://drive.google.com/file/d/1kdaH3GlDcS6ErGagCge073nHt3GmeMNW/view?usp=sharing"
+              href="https://drive.google.com/file/d/1krYuk2nCDRBLMev8h6b-LpzEnaJQJ78d/view?usp=sharing"
               download
             >
               <button className="btn h-10 text-sm relative inline-flex items-center justify-start overflow-hidden font-medium transition-all border-2 border-solid border-green-500 hover:bg-white group py-1.5 px-2.5 mt-8">
